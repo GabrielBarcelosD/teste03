@@ -1,0 +1,86 @@
+header {
+
+    margin-top: 3rem;
+    width: 100%;
+
+    .container {
+    
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        ul {
+            width: 100%;
+            right: 8rem;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            li {
+                margin-left: 6.5rem;
+
+                a {
+                    width: 100%;
+                    height: 3.6rem;
+                    color: #242323;
+                    font-family: Poppins;
+                    font-size: 1.4rem;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 0.022rem;
+
+                }
+            }
+        }
+
+        .marca {
+            width: 100%;
+            color: #000;
+            font-family: Poppins;
+            font-size: 4rem;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            letter-spacing: 0.12rem;
+            justify-content: space-around;
+        }
+
+        button {
+            width: 100%;
+            max-width: 9.5rem;
+            height: 4.5rem;
+            border-radius: 7px;
+            background: #000;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            top: 0.7rem;
+
+
+        }
+    }
+    @media(max-width: 822px) {
+        .container {
+            ul{
+            display: none;
+            }
+            button{
+                right: 0.1rem;
+            }
+        }
+    }
+    @media(max-width: 1097px) {
+        .container {
+            position: relative;
+            left: 17rem;
+            button{
+                right: 1rem;
+            }
+        }
+    }
+}
